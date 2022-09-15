@@ -15,16 +15,13 @@ function App() {
       </li>
       <li>
       <Link to='/login'>Login</Link>
-       
       </li>
     </ul>
   </nav>
 <Routes>
   <Route path="/" element={<Home/>}/>
-  <Route path="/login" element={<Login/>}/>
+  <Route path="/login" element={<Login />}/>
 </Routes>
-
-
 </BrowserRouter> 
      
 
